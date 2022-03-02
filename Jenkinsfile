@@ -24,7 +24,7 @@ pipeline {
         }
          stage('Notification') {
             steps {
-                echo 'Send notification to DevOps Engineer'
+                echo 'Send notification to all DevOps Engineer'
             }
         }
     }
